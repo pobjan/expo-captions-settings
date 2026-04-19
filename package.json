@@ -1,0 +1,49 @@
+{
+  "name": "expo-captions-settings",
+  "version": "1.0.0",
+  "description": "Expo module for reading Android caption/subtitle accessibility settings",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module build",
+    "prepublishOnly": "expo-module build",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "keywords": [
+    "expo",
+    "expo-module",
+    "android",
+    "captions",
+    "subtitles",
+    "accessibility",
+    "react-native"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pobjan/expo-captions-settings.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pobjan/expo-captions-settings/issues"
+  },
+  "homepage": "https://github.com/pobjan/expo-captions-settings#readme",
+  "author": "pobjan",
+  "license": "MIT",
+  "peerDependencies": {
+    "expo": ">=50.0.0",
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "expo-module-scripts": "^3.5.2",
+    "typescript": "^5.3.3"
+  },
+  "expo": {
+    "fyi": {
+      "android": "https://github.com/pobjan/expo-captions-settings"
+    }
+  }
+}
