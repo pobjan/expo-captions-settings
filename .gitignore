@@ -1,0 +1,8 @@
+node_modules/
+build/
+android/.cxx/
+android/build/
+android/.gradle/
+*.iml
+.DS_Store
+*.log
